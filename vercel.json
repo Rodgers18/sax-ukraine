@@ -1,0 +1,21 @@
+{
+  "functions": {
+    "api/liqpay-callback.js": {
+      "includeFiles": "private-products/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/public/index.html"
+    },
+    {
+      "source": "/success.html",
+      "destination": "/public/success.html"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/public/assets/$1"
+    }
+  ]
+}
