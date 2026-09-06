@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/liqpay-callback.js": {
+    "api/order-confirm.js": {
       "includeFiles": "private-products/**"
     }
   },
