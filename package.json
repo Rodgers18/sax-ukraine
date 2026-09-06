@@ -1,9 +1,0 @@
-{
-  "name": "sax-ukraine-store",
-  "version": "1.0.0",
-  "private": true,
-  "description": "SAX UKRAINE: Privat24 Envelope order notification + one-click manual confirmation + automatic email delivery",
-  "dependencies": {
-    "nodemailer": "^6.9.16"
-  }
-}
