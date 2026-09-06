@@ -36,6 +36,18 @@
     {
       "source": "/zatsiluyu-saxophone",
       "destination": "/public/zatsiluyu-saxophone.html"
+    },
+    {
+      "source": "/a-ya-vse-plakala-saxophone.html",
+      "destination": "/a-ya-vse-plakala-saxophone.html"
+    },
+    {
+      "source": "/enkarapista-saxophone.html",
+      "destination": "/enkarapista-saxophone.html"
+    },
+    {
+      "source": "/zatsiluyu-saxophone.html",
+      "destination": "/zatsiluyu-saxophone.html"
     }
   ]
 }
