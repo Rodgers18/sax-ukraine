@@ -6,7 +6,8 @@ const querystring = require('querystring');
 
 const PRODUCTS = {
   'a-ya-vse-plakala': {name:'DOROFEEVA — А я все плакала', amount:100, pdf:'a-ya-vse-plakala-noty.pdf', mp3:'a-ya-vse-plakala-minus.mp3'},
-  'enkarapista': {name:'DREVO — Енкарапіста', amount:100, pdf:'enkarapista-noty.pdf', mp3:'enkarapista-minus.mp3'}
+  'enkarapista': {name:'DREVO — Енкарапіста', amount:100, pdf:'enkarapista-noty.pdf', mp3:'enkarapista-minus.mp3'},
+  'zatsiluyu': {name:'Поль Манандіз — Зацілую', amount:100, pdf:'zatsiluyu-noty.pdf', mp3:'zatsiluyu-minus.mp3'}
 };
 function sign(secret,payload){ return crypto.createHmac('sha256',secret).update(payload).digest('base64url'); }
 function safeEq(a,b){ const A=Buffer.from(String(a||'')),B=Buffer.from(String(b||'')); return A.length===B.length && crypto.timingSafeEqual(A,B); }

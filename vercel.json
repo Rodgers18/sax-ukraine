@@ -16,6 +16,26 @@
     {
       "source": "/assets/(.*)",
       "destination": "/public/assets/$1"
+    },
+    {
+      "source": "/a-ya-vse-plakala-saxophone",
+      "destination": "/public/a-ya-vse-plakala-saxophone.html"
+    },
+    {
+      "source": "/enkarapista-saxophone",
+      "destination": "/public/enkarapista-saxophone.html"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/public/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/public/sitemap.xml"
+    },
+    {
+      "source": "/zatsiluyu-saxophone",
+      "destination": "/public/zatsiluyu-saxophone.html"
     }
   ]
 }
