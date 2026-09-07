@@ -2,26 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sax-ukraine.vercel.app/</loc>
-    <lastmod>2026-09-06</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sax-ukraine.vercel.app/a-ya-vse-plakala-saxophone.html</loc>
-    <lastmod>2026-09-06</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sax-ukraine.vercel.app/enkarapista-saxophone.html</loc>
-    <lastmod>2026-09-06</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sax-ukraine.vercel.app/zatsiluyu-saxophone.html</loc>
-    <lastmod>2026-09-06</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://sax-ukraine.vercel.app/chervona-ruta-saxophone.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sax-ukraine.vercel.app/zelen-klen-saxophone.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sax-ukraine.vercel.app/hey-nalyvay-saxophone.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url><loc>https://sax-ukraine.vercel.app/offer.html</loc><lastmod>2026-09-07</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/privacy.html</loc><lastmod>2026-09-07</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/payment-delivery.html</loc><lastmod>2026-09-07</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/returns.html</loc><lastmod>2026-09-07</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
 </urlset>

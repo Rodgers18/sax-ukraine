@@ -4,40 +4,6 @@
       "includeFiles": "private-products/**"
     }
   },
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/public/index.html"
-    },
-    {
-      "source": "/success.html",
-      "destination": "/public/success.html"
-    },
-    {
-      "source": "/assets/(.*)",
-      "destination": "/public/assets/$1"
-    },
-    {
-      "source": "/robots.txt",
-      "destination": "/public/robots.txt"
-    },
-    {
-      "source": "/sitemap.xml",
-      "destination": "/public/sitemap.xml"
-    },
-    {
-      "source": "/a-ya-vse-plakala-saxophone.html",
-      "destination": "/a-ya-vse-plakala-saxophone.html"
-    },
-    {
-      "source": "/enkarapista-saxophone.html",
-      "destination": "/enkarapista-saxophone.html"
-    },
-    {
-      "source": "/zatsiluyu-saxophone.html",
-      "destination": "/zatsiluyu-saxophone.html"
-    }
-  ],
   "redirects": [
     {
       "source": "/a-ya-vse-plakala-saxophone",
@@ -53,6 +19,112 @@
       "source": "/zatsiluyu-saxophone",
       "destination": "/zatsiluyu-saxophone.html",
       "permanent": true
+    },
+    {
+      "source": "/chervona-ruta-saxophone",
+      "destination": "/chervona-ruta-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/zelen-klen-saxophone",
+      "destination": "/zelen-klen-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/public/a-ya-vse-plakala-saxophone.html",
+      "destination": "/a-ya-vse-plakala-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/enkarapista-saxophone.html",
+      "destination": "/enkarapista-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/zatsiluyu-saxophone.html",
+      "destination": "/zatsiluyu-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/chervona-ruta-saxophone.html",
+      "destination": "/chervona-ruta-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/zelen-klen-saxophone.html",
+      "destination": "/zelen-klen-saxophone.html",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/public/index.html"
+    },
+    {
+      "source": "/success.html",
+      "destination": "/public/success.html"
+    },
+    {
+      "source": "/assets/:path*",
+      "destination": "/public/assets/:path*"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/public/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/public/sitemap.xml"
+    },
+    {
+      "source": "/a-ya-vse-plakala-saxophone.html",
+      "destination": "/public/a-ya-vse-plakala-saxophone.html"
+    },
+    {
+      "source": "/enkarapista-saxophone.html",
+      "destination": "/public/enkarapista-saxophone.html"
+    },
+    {
+      "source": "/zatsiluyu-saxophone.html",
+      "destination": "/public/zatsiluyu-saxophone.html"
+    },
+    {
+      "source": "/chervona-ruta-saxophone.html",
+      "destination": "/public/chervona-ruta-saxophone.html"
+    },
+    {
+      "source": "/zelen-klen-saxophone.html",
+      "destination": "/public/zelen-klen-saxophone.html"
+    },
+    {
+      "source": "/hey-nalyvay-saxophone.html",
+      "destination": "/public/hey-nalyvay-saxophone.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        }
+      ]
     }
   ]
 }
