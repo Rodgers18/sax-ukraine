@@ -59,6 +59,16 @@
       "source": "/public/zelen-klen-saxophone.html",
       "destination": "/zelen-klen-saxophone.html",
       "permanent": true
+    },
+    {
+      "source": "/hey-nalyvay-saxophone",
+      "destination": "/hey-nalyvay-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/noty-dlya-saksofona",
+      "destination": "/noty-dlya-saksofona.html",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -105,6 +115,26 @@
     {
       "source": "/hey-nalyvay-saxophone.html",
       "destination": "/public/hey-nalyvay-saxophone.html"
+    },
+    {
+      "source": "/noty-dlya-saksofona.html",
+      "destination": "/public/noty-dlya-saksofona.html"
+    },
+    {
+      "source": "/offer.html",
+      "destination": "/public/offer.html"
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/public/privacy.html"
+    },
+    {
+      "source": "/payment-delivery.html",
+      "destination": "/public/payment-delivery.html"
+    },
+    {
+      "source": "/returns.html",
+      "destination": "/public/returns.html"
     }
   ],
   "headers": [
