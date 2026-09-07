@@ -74,7 +74,7 @@ audio{width:100%}.pay{display:block;text-align:center;background:#6cc300;color:#
 <aside class="side">
 <h2>Прослухати демо</h2>
 <audio controls preload="metadata"><source src="/assets/zatsiluyu-demo.mp3" type="audio/mpeg"></audio>
-<a class="pay" href="https://www.privat24.ua/send/4xbgb" target="_blank" rel="noopener">💳 Оплатити 100 грн через Приват24</a>
+<label class="legal-consent" style="display:flex;align-items:flex-start;gap:9px;font-size:12px;line-height:1.45;color:#c8d4df;margin:10px 0"><input type="checkbox" class="legal-consent-check" style="width:auto;margin-top:3px" required><span>Я погоджуюся з <a href="/offer.html" target="_blank">публічною офертою</a> та <a href="/privacy.html" target="_blank">політикою конфіденційності</a> і прошу розпочати цифрову доставку після підтвердження оплати.</span></label><a class="pay pay-gated" aria-disabled="true" href="https://www.privat24.ua/send/4xbgb" target="_blank" rel="noopener">💳 Оплатити 100 грн через Приват24</a>
 <p>Після оплати введіть ім’я платника та email. Після перевірки оплати PDF і MP3 будуть надіслані автоматично.</p>
 <form class="form order-form" data-product="zatsiluyu">
 <input type="text" name="payerName" required maxlength="80" placeholder="Ім’я платника">
@@ -96,6 +96,15 @@ try{const payload={product:'zatsiluyu',payerName:form.querySelector('[name=payer
 const r=await fetch('/api/order-submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});const out=await r.json();if(!r.ok)throw new Error(out.error||'Помилка');
 status.className='status ok';status.textContent='Готово! Після перевірки оплати матеріали прийдуть на email.';form.reset();}
 catch(err){status.className='status err';status.textContent=err.message||'Помилка';}finally{btn.disabled=false;}
+});
+</script>
+
+<script>
+document.querySelectorAll('.pay-gated').forEach(pay=>{
+  const box=pay.parentElement.querySelector('.legal-consent-check');
+  if(!box) return;
+  const sync=()=>{ pay.setAttribute('aria-disabled', box.checked?'false':'true'); pay.style.opacity=box.checked?'1':'.55'; pay.style.pointerEvents=box.checked?'auto':'none'; };
+  box.addEventListener('change',sync); sync();
 });
 </script>
 </body></html>

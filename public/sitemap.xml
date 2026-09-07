@@ -24,4 +24,23 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://sax-ukraine.vercel.app/chervona-ruta-saxophone.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sax-ukraine.vercel.app/zelen-klen-saxophone.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url><loc>https://sax-ukraine.vercel.app/offer.html</loc><lastmod>2026-09-07</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/privacy.html</loc><lastmod>2026-09-07</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/payment-delivery.html</loc><lastmod>2026-09-07</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/returns.html</loc><lastmod>2026-09-07</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
 </urlset>

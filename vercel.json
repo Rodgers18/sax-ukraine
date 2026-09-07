@@ -21,6 +21,16 @@
       "permanent": true
     },
     {
+      "source": "/chervona-ruta-saxophone",
+      "destination": "/chervona-ruta-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/zelen-klen-saxophone",
+      "destination": "/zelen-klen-saxophone.html",
+      "permanent": true
+    },
+    {
       "source": "/public/index.html",
       "destination": "/",
       "permanent": true
@@ -38,6 +48,16 @@
     {
       "source": "/public/zatsiluyu-saxophone.html",
       "destination": "/zatsiluyu-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/chervona-ruta-saxophone.html",
+      "destination": "/chervona-ruta-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/zelen-klen-saxophone.html",
+      "destination": "/zelen-klen-saxophone.html",
       "permanent": true
     }
   ],
@@ -73,6 +93,14 @@
     {
       "source": "/zatsiluyu-saxophone.html",
       "destination": "/public/zatsiluyu-saxophone.html"
+    },
+    {
+      "source": "/chervona-ruta-saxophone.html",
+      "destination": "/public/chervona-ruta-saxophone.html"
+    },
+    {
+      "source": "/zelen-klen-saxophone.html",
+      "destination": "/public/zelen-klen-saxophone.html"
     }
   ],
   "headers": [
