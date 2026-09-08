@@ -6,7 +6,8 @@ const PRODUCTS = {
   'enkarapista': {name:'DREVO — Енкарапіста', amount:100},
   'zatsiluyu': {name:'Поль Манандіз — Зацілую', amount:100},
   'chervona-ruta': {name:'Володимир Івасюк — Червона рута', amount:100},
-  'zelen-klen': {name:'Ігор Поклад — Юрій Рибчинський — Зелен клен', amount:100}
+  'zelen-klen': {name:'Ігор Поклад — Юрій Рибчинський — Зелен клен', amount:100},
+  'hey-nalyvay': {name:'PARACOM — Гей наливай', amount:100}
 };
 
 function esc(s='') { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }

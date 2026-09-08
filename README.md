@@ -47,3 +47,10 @@
 - PDF + MP3, демо
 - Ціна: 100 грн
 - Сторінка: `/zelen-klen-saxophone.html`
+
+## Додано: Гей наливай
+- PARACOM — «Гей наливай»
+- Альт-саксофон
+- PDF + MP3, демо
+- Ціна: 100 грн
+- Сторінка: `/hey-nalyvay-saxophone.html`

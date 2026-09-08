@@ -9,7 +9,8 @@ const PRODUCTS = {
   'enkarapista': {name:'DREVO — Енкарапіста', amount:100, pdf:'enkarapista-noty.pdf', mp3:'enkarapista-minus.mp3'},
   'zatsiluyu': {name:'Поль Манандіз — Зацілую', amount:100, pdf:'zatsiluyu-noty.pdf', mp3:'zatsiluyu-minus.mp3'},
   'chervona-ruta': {name:'Володимир Івасюк — Червона рута', amount:100, pdf:'chervona-ruta-noty.pdf', mp3:'chervona-ruta-minus.mp3'},
-  'zelen-klen': {name:'Ігор Поклад — Юрій Рибчинський — Зелен клен', amount:100, pdf:'zelen-klen-noty.pdf', mp3:'zelen-klen-minus.mp3'}
+  'zelen-klen': {name:'Ігор Поклад — Юрій Рибчинський — Зелен клен', amount:100, pdf:'zelen-klen-noty.pdf', mp3:'zelen-klen-minus.mp3'},
+  'hey-nalyvay': {name:'PARACOM — Гей наливай', amount:100, pdf:'hey-nalyvay-noty.pdf', mp3:'hey-nalyvay-minus.mp3'}
 };
 function sign(secret,payload){ return crypto.createHmac('sha256',secret).update(payload).digest('base64url'); }
 function safeEq(a,b){ const A=Buffer.from(String(a||'')),B=Buffer.from(String(b||'')); return A.length===B.length && crypto.timingSafeEqual(A,B); }
