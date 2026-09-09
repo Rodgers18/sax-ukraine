@@ -12,7 +12,9 @@ const PRODUCTS = {
   'zelen-klen': {name:'Ігор Поклад — Юрій Рибчинський — Зелен клен', amount:100, pdf:'zelen-klen-noty.pdf', mp3:'zelen-klen-minus.mp3'},
   'hey-nalyvay': {name:'PARACOM — Гей наливай', amount:100, pdf:'hey-nalyvay-noty.pdf', mp3:'hey-nalyvay-minus.mp3'},
   'yevreiska-polka': {name:'Єврейська полька (Фрейлик 1)', amount:100, pdf:'yevreiska-polka-noty.pdf', mp3:'yevreiska-polka-minus.mp3'},
-  'polka-soloviy': {name:'Полька «Соловей»', amount:100, pdf:'polka-soloviy-noty.pdf', mp3:'polka-soloviy-minus.mp3'}
+  'polka-soloviy': {name:'Полька «Соловей»', amount:100, pdf:'polka-soloviy-noty.pdf', mp3:'polka-soloviy-minus.mp3'},
+  'ya-nikoly-nikomu-tebe-ne-viddam': {name:'Олександр Пономарьов — Я ніколи нікому тебе не віддам', amount:100, pdf:'ya-nikoly-nikomu-tebe-ne-viddam-noty.pdf', mp3:'ya-nikoly-nikomu-tebe-ne-viddam-minus.mp3'},
+  'ni-ya-ne-tu-kokhav': {name:'Анатолій Говорадло — Ні я не ту кохав', amount:100, pdf:'ni-ya-ne-tu-kokhav-noty.pdf', mp3:'ni-ya-ne-tu-kokhav-minus.mp3'}
 };
 function sign(secret,payload){ return crypto.createHmac('sha256',secret).update(payload).digest('base64url'); }
 function safeEq(a,b){ const A=Buffer.from(String(a||'')),B=Buffer.from(String(b||'')); return A.length===B.length && crypto.timingSafeEqual(A,B); }

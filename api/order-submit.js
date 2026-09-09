@@ -9,7 +9,9 @@ const PRODUCTS = {
   'zelen-klen': {name:'Ігор Поклад — Юрій Рибчинський — Зелен клен', amount:100},
   'hey-nalyvay': {name:'PARACOM — Гей наливай', amount:100},
   'yevreiska-polka': {name:'Єврейська полька (Фрейлик 1)', amount:100},
-  'polka-soloviy': {name:'Полька «Соловей»', amount:100}
+  'polka-soloviy': {name:'Полька «Соловей»', amount:100},
+  'ya-nikoly-nikomu-tebe-ne-viddam': {name:'Олександр Пономарьов — Я ніколи нікому тебе не віддам', amount:100},
+  'ni-ya-ne-tu-kokhav': {name:'Анатолій Говорадло — Ні я не ту кохав', amount:100}
 };
 
 function esc(s='') { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
