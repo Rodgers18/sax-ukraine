@@ -2,6 +2,7 @@ const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 
 const PRODUCTS = {
+  'himn-ukrainy': {name:'Михайло Вербицький — Гімн України', amount:100},
   'a-ya-vse-plakala': {name:'DOROFEEVA — А я все плакала', amount:100},
   'enkarapista': {name:'DREVO — Енкарапіста', amount:100},
   'zatsiluyu': {name:'Поль Манандіз — Зацілую', amount:100},
@@ -11,8 +12,7 @@ const PRODUCTS = {
   'yevreiska-polka': {name:'Єврейська полька (Фрейлик 1)', amount:100},
   'polka-soloviy': {name:'Полька «Соловей»', amount:100},
   'ya-nikoly-nikomu-tebe-ne-viddam': {name:'Олександр Пономарьов — Я ніколи нікому тебе не віддам', amount:100},
-  'ni-ya-ne-tu-kokhav': {name:'Анатолій Говорадло — Ні я не ту кохав', amount:100},
-  'hay-zelenyy-hay': {name:'Назарій Яремчук — Гай зелений гай', amount:100},
+  'ni-ya-ne-tu-kokhav': {name:'Анатолій Говорадло — Ні я не ту кохав', amount:100}
 };
 
 function esc(s='') { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
