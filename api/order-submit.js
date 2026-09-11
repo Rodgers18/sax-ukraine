@@ -2,6 +2,9 @@ const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 
 const PRODUCTS = {
+  'varenychky': {name:'Українська народна пісня — Варенички', amount:50},
+  'oy-ty-halyu': {name:'Українська народна пісня — Ой ти галю', amount:50},
+  'rozpryahayte-khloptsi-koni': {name:'Українська народна пісня — Розпрягайте, хлопці, коні', amount:50},
   'a-ya-vse-plakala': {name:'DOROFEEVA — А я все плакала', amount:100},
   'enkarapista': {name:'DREVO — Енкарапіста', amount:100},
   'zatsiluyu': {name:'Поль Манандіз — Зацілую', amount:100},
