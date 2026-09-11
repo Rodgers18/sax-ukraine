@@ -62,6 +62,7 @@ h1 em{font-style:normal;color:var(--gold2)} .lead{font-size:19px;line-height:1.6
 .artist{color:#a66d06;font-weight:950;letter-spacing:.8px;font-size:12px} .product h3{font-family:Georgia,serif;font-size:39px;margin:8px 0 11px}
 .desc{color:#6f7986;line-height:1.65} .chips{display:flex;gap:8px;flex-wrap:wrap;margin:17px 0} .chip{border:1px solid #ded8cf;background:#fbf8f3;padding:8px 11px;border-radius:999px;font-size:13px;color:#394555}
 .preview-shell{position:relative;border-radius:18px;overflow:hidden;border:1px solid #e4ddd2;background:white;margin-top:18px} .preview{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top}
+.sax-preview-badge{position:absolute;top:12px;right:12px;z-index:2;background:rgba(7,17,29,.92);color:#ffd978;border:1px solid rgba(255,217,120,.48);padding:7px 12px;border-radius:999px;font-size:12px;font-weight:900;letter-spacing:.4px;box-shadow:0 8px 24px rgba(0,0,0,.16)}
 .lock{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);width:calc(100% - 28px);max-width:430px;text-align:center;background:rgba(7,17,29,.88);color:white;padding:12px 16px;border-radius:12px;font-weight:900}
 .lock small{display:block;color:#c8d4df;font-weight:500;margin-top:3px} .price-row{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:18px} .price{font-size:34px;font-weight:950} .more{border:1px solid #d7cfc4;padding:10px 13px;border-radius:11px;font-size:13px}
 
@@ -103,10 +104,6 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
   .aboutphoto{min-height:280px}
 }
 
-
-.product{position:relative}
-.sax-ukraine-badge{position:absolute;top:18px;right:18px;z-index:4;display:inline-flex;align-items:center;gap:7px;background:linear-gradient(135deg,#0a5fb8,#ffd43b);color:#fff;border:2px solid rgba(255,255,255,.92);box-shadow:0 8px 20px rgba(7,17,29,.22);padding:8px 12px;border-radius:999px;font-size:12px;font-weight:950;letter-spacing:.45px;text-transform:uppercase;text-shadow:0 1px 2px rgba(0,0,0,.35)}
-@media(max-width:560px){.sax-ukraine-badge{top:12px;right:12px;padding:7px 10px;font-size:11px}}
 </style>
 <script type="application/ld+json">
 {
@@ -181,37 +178,14 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 <p>У кожному комплекті — партія для альт-саксофона у PDF та повна мінусовка MP3. Перед покупкою можна прослухати демо й переглянути частину нот.</p>
 </div>
 <div class="catalog">
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
-<div>
-<div class="artist">МИХАЙЛО ВЕРБИЦЬКИЙ</div><h3>Гімн України</h3>
-<p class="desc">Михайло Вербицький — «Гімн України» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
-<div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/himn-ukrainy-preview-blur.png" alt="Фрагмент нот Гімн України для альт-саксофона"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
-<div class="price-row"><div class="price">100 грн</div><a class="more" href="/himn-ukrainy-saxophone.html">Детальніше →</a></div>
-</div>
-<div class="side">
-<div class="side-card"><h4>Прослухати демо</h4><p>Послухайте фрагмент композиції перед покупкою.</p><audio controls preload="metadata"><source src="assets/himn-ukrainy-demo.mp3" type="audio/mpeg"></audio></div>
-<div class="side-card"><h4>Замовити комплект</h4><p>Оплатіть 100 грн через Приват24, потім повідомте продавця.</p>
-<label class="legal-consent" style="display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.45;color:#e6eef5;margin:12px 0;padding:10px 12px;border:1px solid rgba(255,255,255,.16);border-radius:10px;background:rgba(255,255,255,.035);cursor:pointer"><input type="checkbox" class="legal-consent-check" style="width:18px;height:18px;min-width:18px;margin-top:2px;cursor:pointer;accent-color:#38bdf8" required><span>Я погоджуюся з <a href="/offer.html" target="_blank">публічною офертою</a> та <a href="/privacy.html" target="_blank">політикою конфіденційності</a> і прошу розпочати цифрову доставку після підтвердження оплати.</span></label><a class="pay pay-gated" aria-disabled="true" href="https://www.privat24.ua/send/4xbgb" target="_blank" rel="noopener">💳 Оплатити через Приват24</a>
-<a class="telegram-help" href="https://t.me/Sax1540" target="_blank" rel="noopener" style="display:block;text-align:center;background:#229ED9;color:#fff;font-weight:850;padding:12px 14px;border-radius:12px;margin:-5px 0 15px;text-decoration:none">💬 Не прийшли ноти? Написати в Telegram</a>
-<form class="form order-form" data-product="himn-ukrainy">
-<input type="text" name="payerName" required maxlength="80" placeholder="Ім’я платника">
-<input type="email" name="email" required maxlength="180" placeholder="Email для отримання нот">
-<input type="text" name="note" maxlength="120" placeholder="Коментар (необов’язково)">
-<input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-<button type="submit">✅ Я оплатив — повідомити продавця</button><div class="status"></div>
-</form>
-</div>
-</div>
-</article>
 
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">DOROFEEVA</div><h3>А я все плакала</h3>
 <p class="desc">DOROFEEVA — «А я все плакала» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/a-ya-vse-plakala-preview-blur.png" alt="Фрагмент нот А я все плакала"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/a-ya-vse-plakala-preview-blur.png" alt="Фрагмент нот А я все плакала"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/a-ya-vse-plakala-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -230,12 +204,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </div>
 </article>
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">DREVO</div><h3>Енкарапіста</h3>
 <p class="desc">DREVO — «Енкарапіста» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/enkarapista-preview-blur.png" alt="Фрагмент нот Енкарапіста"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/enkarapista-preview-blur.png" alt="Фрагмент нот Енкарапіста"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/enkarapista-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -255,12 +229,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </article>
 
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">ПОЛЬ МАНАНДІЗ</div><h3>Зацілую</h3>
 <p class="desc">Поль Манандіз — «Зацілую» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/zatsiluyu-preview-blur.jpg" alt="Фрагмент нот Поль Манандіз — Зацілую"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/zatsiluyu-preview-blur.jpg" alt="Фрагмент нот Поль Манандіз — Зацілую"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/zatsiluyu-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -279,12 +253,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </div>
 </article>
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">ВОЛОДИМИР ІВАСЮК</div><h3>Червона рута</h3>
 <p class="desc">Володимир Івасюк — «Червона рута» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/chervona-ruta-preview-blur.png" alt="Фрагмент нот Володимир Івасюк — Червона рута"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/chervona-ruta-preview-blur.png" alt="Фрагмент нот Володимир Івасюк — Червона рута"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/chervona-ruta-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -303,12 +277,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </div>
 </article>
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">ІГОР ПОКЛАД — ЮРІЙ РИБЧИНСЬКИЙ</div><h3>Зелен клен</h3>
 <p class="desc">Ігор Поклад — Юрій Рибчинський — «Зелен клен» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/zelen-klen-preview-blur.png" alt="Фрагмент нот Ігор Поклад, Юрій Рибчинський — Зелен клен"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/zelen-klen-preview-blur.png" alt="Фрагмент нот Ігор Поклад, Юрій Рибчинський — Зелен клен"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/zelen-klen-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -327,12 +301,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </div>
 </article>
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">PARACOM</div><h3>Гей наливай</h3>
 <p class="desc">PARACOM — «Гей наливай» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/hey-nalyvay-preview-blur.jpg" alt="Фрагмент нот PARACOM — Гей наливай для альт-саксофона"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/hey-nalyvay-preview-blur.jpg" alt="Фрагмент нот PARACOM — Гей наливай для альт-саксофона"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/hey-nalyvay-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -352,12 +326,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </article>
 
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">НАРОДНА МУЗИКА</div><h3>Єврейська полька</h3>
 <p class="desc">Єврейська полька (Фрейлик 1) — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/yevreiska-polka-preview-blur.jpg" alt="Фрагмент нот Єврейська полька (Фрейлик 1) для альт-саксофона"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/yevreiska-polka-preview-blur.jpg" alt="Фрагмент нот Єврейська полька (Фрейлик 1) для альт-саксофона"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/yevreiska-polka-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -376,12 +350,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </div>
 </article>
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">НАРОДНА МУЗИКА</div><h3>Полька «Соловей»</h3>
 <p class="desc">Полька «Соловей» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/polka-soloviy-preview-blur.jpg" alt="Фрагмент нот Полька «Соловей» для альт-саксофона"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/polka-soloviy-preview-blur.jpg" alt="Фрагмент нот Полька «Соловей» для альт-саксофона"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/polka-soloviy-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -400,12 +374,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </div>
 </article>
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">ОЛЕКСАНДР ПОНОМАРЬОВ</div><h3>Я ніколи нікому тебе не віддам</h3>
 <p class="desc">Олександр Пономарьов — «Я ніколи нікому тебе не віддам» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/ya-nikoly-nikomu-tebe-ne-viddam-preview-blur.png" alt="Фрагмент нот Олександр Пономарьов — Я ніколи нікому тебе не віддам для альт-саксофона"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/ya-nikoly-nikomu-tebe-ne-viddam-preview-blur.png" alt="Фрагмент нот Олександр Пономарьов — Я ніколи нікому тебе не віддам для альт-саксофона"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/ya-nikoly-nikomu-tebe-ne-viddam-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -424,12 +398,12 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 </div>
 </article>
 
-<article class="product"><div class="sax-ukraine-badge">🎷 Sax Ukraine</div>
+<article class="product">
 <div>
 <div class="artist">АНАТОЛІЙ ГОВОРАДЛО</div><h3>Ні я не ту кохав</h3>
 <p class="desc">Анатолій Говорадло — «Ні я не ту кохав» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
 <div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
-<div class="preview-shell"><img class="preview" src="assets/ni-ya-ne-tu-kokhav-preview-blur.png" alt="Фрагмент нот Анатолій Говорадло — Ні я не ту кохав для альт-саксофона"><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="preview-shell"><img class="preview" src="assets/ni-ya-ne-tu-kokhav-preview-blur.png" alt="Фрагмент нот Анатолій Говорадло — Ні я не ту кохав для альт-саксофона"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
 <div class="price-row"><div class="price">100 грн</div><a class="more" href="/ni-ya-ne-tu-kokhav-saxophone.html">Детальніше →</a></div>
 </div>
 <div class="side">
@@ -438,6 +412,53 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 <label class="legal-consent" style="display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.45;color:#e6eef5;margin:12px 0;padding:10px 12px;border:1px solid rgba(255,255,255,.16);border-radius:10px;background:rgba(255,255,255,.035);cursor:pointer"><input type="checkbox" class="legal-consent-check" style="width:18px;height:18px;min-width:18px;margin-top:2px;cursor:pointer;accent-color:#38bdf8" required><span>Я погоджуюся з <a href="/offer.html" target="_blank">публічною офертою</a> та <a href="/privacy.html" target="_blank">політикою конфіденційності</a> і прошу розпочати цифрову доставку після підтвердження оплати.</span></label><a class="pay pay-gated" aria-disabled="true" href="https://www.privat24.ua/send/4xbgb" target="_blank" rel="noopener">💳 Оплатити через Приват24</a>
 <a class="telegram-help" href="https://t.me/Sax1540" target="_blank" rel="noopener" style="display:block;text-align:center;background:#229ED9;color:#fff;font-weight:850;padding:12px 14px;border-radius:12px;margin:-5px 0 15px;text-decoration:none">💬 Не прийшли ноти? Написати в Telegram</a>
 <form class="form order-form" data-product="ni-ya-ne-tu-kokhav">
+<input type="text" name="payerName" required maxlength="80" placeholder="Ім’я платника">
+<input type="email" name="email" required maxlength="180" placeholder="Email для отримання нот">
+<input type="text" name="note" maxlength="120" placeholder="Коментар (необов’язково)">
+<input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+<button type="submit">✅ Я оплатив — повідомити продавця</button><div class="status"></div>
+</form>
+</div>
+</div>
+</article>
+
+<article class="product">
+<div>
+<div class="artist">НАЗАРІЙ ЯРЕМЧУК</div><h3>Гай зелений гай</h3>
+<p class="desc">Назарій Яремчук — «Гай зелений гай» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
+<div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
+<div class="preview-shell"><img class="preview" src="assets/hay-zelenyy-hay-preview-blur.png" alt="Фрагмент нот Назарій Яремчук — Гай зелений гай для альт-саксофона"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="price-row"><div class="price">100 грн</div><a class="more" href="/hay-zelenyy-hay-saxophone.html">Детальніше →</a></div>
+</div>
+<div class="side">
+<div class="side-card"><h4>Прослухати демо</h4><p>Послухайте фрагмент композиції перед покупкою.</p><audio controls preload="metadata"><source src="assets/hay-zelenyy-hay-demo.mp3" type="audio/mpeg"></audio></div>
+<div class="side-card"><h4>Замовити комплект</h4><p>Оплатіть 100 грн через Приват24, потім повідомте продавця.</p>
+<label class="legal-consent" style="display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.45;color:#e6eef5;margin:12px 0;padding:10px 12px;border:1px solid rgba(255,255,255,.16);border-radius:10px;background:rgba(255,255,255,.035);cursor:pointer"><input type="checkbox" class="legal-consent-check" style="width:18px;height:18px;min-width:18px;margin-top:2px;cursor:pointer;accent-color:#38bdf8" required><span>Я погоджуюся з <a href="/offer.html" target="_blank">публічною офертою</a> та <a href="/privacy.html" target="_blank">політикою конфіденційності</a> і прошу розпочати цифрову доставку після підтвердження оплати.</span></label><a class="pay pay-gated" aria-disabled="true" href="https://www.privat24.ua/send/4xbgb" target="_blank" rel="noopener">💳 Оплатити через Приват24</a>
+<a class="telegram-help" href="https://t.me/Sax1540" target="_blank" rel="noopener" style="display:block;text-align:center;background:#229ED9;color:#fff;font-weight:850;padding:12px 14px;border-radius:12px;margin:-5px 0 15px;text-decoration:none">💬 Не прийшли ноти? Написати в Telegram</a>
+<form class="form order-form" data-product="hay-zelenyy-hay">
+<input type="text" name="payerName" required maxlength="80" placeholder="Ім’я платника">
+<input type="email" name="email" required maxlength="180" placeholder="Email для отримання нот">
+<input type="text" name="note" maxlength="120" placeholder="Коментар (необов’язково)">
+<input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+<button type="submit">✅ Я оплатив — повідомити продавця</button><div class="status"></div>
+</form>
+</div>
+</div>
+</article>
+
+<article class="product"><div>
+<div class="artist">МИХАЙЛО ВЕРБИЦЬКИЙ</div><h3>Гімн України</h3>
+<p class="desc">Михайло Вербицький — «Гімн України» — ноти для альт-саксофона + фонограма MP3. У комплекті також демо та попередній перегляд нот.</p>
+<div class="chips"><span class="chip">🎷 Альт-саксофон</span><span class="chip">📄 PDF</span><span class="chip">🎧 MP3</span><span class="chip">▶️ Демо</span></div>
+<div class="preview-shell"><img class="preview" src="assets/himn-ukrainy-preview-blur.png" alt="Фрагмент нот Гімн України для альт-саксофона"><div class="sax-preview-badge">🎷 SAX UKRAINE</div><div class="lock">🔒 Повна версія після покупки<small>PDF + MP3 на email</small></div></div>
+<div class="price-row"><div class="price">100 грн</div><a class="more" href="/himn-ukrainy-saxophone.html">Детальніше →</a></div>
+</div>
+<div class="side">
+<div class="side-card"><h4>Прослухати демо</h4><p>Послухайте фрагмент композиції перед покупкою.</p><audio controls preload="metadata"><source src="assets/himn-ukrainy-demo.mp3" type="audio/mpeg"></audio></div>
+<div class="side-card"><h4>Замовити комплект</h4><p>Оплатіть 100 грн через Приват24, потім повідомте продавця.</p>
+<label class="legal-consent" style="display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.45;color:#e6eef5;margin:12px 0;padding:10px 12px;border:1px solid rgba(255,255,255,.16);border-radius:10px;background:rgba(255,255,255,.035);cursor:pointer"><input type="checkbox" class="legal-consent-check" style="width:18px;height:18px;min-width:18px;margin-top:2px;cursor:pointer;accent-color:#38bdf8" required><span>Я погоджуюся з <a href="/offer.html" target="_blank">публічною офертою</a> та <a href="/privacy.html" target="_blank">політикою конфіденційності</a> і прошу розпочати цифрову доставку після підтвердження оплати.</span></label><a class="pay pay-gated" aria-disabled="true" href="https://www.privat24.ua/send/4xbgb" target="_blank" rel="noopener">💳 Оплатити через Приват24</a>
+<a class="telegram-help" href="https://t.me/Sax1540" target="_blank" rel="noopener" style="display:block;text-align:center;background:#229ED9;color:#fff;font-weight:850;padding:12px 14px;border-radius:12px;margin:-5px 0 15px;text-decoration:none">💬 Не прийшли ноти? Написати в Telegram</a>
+<form class="form order-form" data-product="himn-ukrainy">
 <input type="text" name="payerName" required maxlength="80" placeholder="Ім’я платника">
 <input type="email" name="email" required maxlength="180" placeholder="Email для отримання нот">
 <input type="text" name="note" maxlength="120" placeholder="Коментар (необов’язково)">
@@ -472,6 +493,7 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 <p>SAX UKRAINE — це музична платформа, створена для саксофоністів, які хочуть швидко знаходити сучасний матеріал без довгих пошуків. Ми поєднуємо в одному комплекті партію PDF, мінусовку MP3 та демо.</p>
 <p>Мета проєкту — підтримувати український музичний репертуар і робити його доступнішим для викладачів, учнів, аматорів і виконавців.</p>
 <div class="about-list"><div>🎵 Музика надихає</div><div>💙💛 Українська музика звучить сучасно</div><div>🎷 Саксофон відкриває нові барви знайомих пісень</div></div>
+
 </div>
 </div>
 </section>
