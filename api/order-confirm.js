@@ -5,6 +5,7 @@ const nodemailer = require('nodemailer');
 const querystring = require('querystring');
 
 const PRODUCTS = {
+  'hey-nalyvaite-povni-chary': {name:'Українська народна пісня — Гей наливайте, повнії чари', amount:50, pdf:'hey-nalyvaite-povni-chary-noty.pdf', mp3:'hey-nalyvaite-povni-chary-minus.mp3'},
   'varenychky': {name:'Українська народна пісня — Варенички', amount:50, pdf:'varenychky-noty.pdf', mp3:'varenychky-minus.mp3'},
   'oy-ty-halyu': {name:'Українська народна пісня — Ой ти галю', amount:50, pdf:'oy-ty-halyu-noty.pdf', mp3:'oy-ty-halyu-minus.mp3'},
   'rozpryahayte-khloptsi-koni': {name:'Українська народна пісня — Розпрягайте, хлопці, коні', amount:50, pdf:'rozpryahayte-khloptsi-koni-noty.pdf', mp3:'rozpryahayte-khloptsi-koni-minus.mp3'},
@@ -51,7 +52,7 @@ module.exports = async (req,res) => {
   if(!product || Number(order.amount)!==product.amount) return res.status(400).send(page('Помилка','<h2>Невідоме замовлення</h2>'));
 
   if(req.method==='GET'){
-    return res.status(200).send(page('Підтвердження оплати',`<h2>Підтвердити відправку?</h2><p class="muted"><b>Твір:</b> ${esc(product.name)}<br><b>Сума:</b> ${product.amount} грн<br><b>Ім’я платника:</b> ${esc(order.payerName)}<br><b>Email покупця:</b> ${esc(order.email)}<br><b>Коментар:</b> ${esc(order.note||'—')}</p><p class="muted">Спочатку перевірте, що оплата 100 грн дійсно надійшла у Конверт Приват24.</p><form method="post"><input type="hidden" name="token" value="${esc(token)}"><button type="submit">✅ Оплата є — відправити PDF + MP3</button></form>`));
+    return res.status(200).send(page('Підтвердження оплати',`<h2>Підтвердити відправку?</h2><p class="muted"><b>Твір:</b> ${esc(product.name)}<br><b>Сума:</b> ${product.amount} грн<br><b>Ім’я платника:</b> ${esc(order.payerName)}<br><b>Email покупця:</b> ${esc(order.email)}<br><b>Коментар:</b> ${esc(order.note||'—')}</p><p class="muted">Спочатку перевірте, що оплата ${product.amount} грн дійсно надійшла у Конверт Приват24.</p><form method="post"><input type="hidden" name="token" value="${esc(token)}"><button type="submit">✅ Оплата є — відправити PDF + MP3</button></form>`));
   }
 
   const host=process.env.SMTP_HOST, port=Number(process.env.SMTP_PORT||465);
