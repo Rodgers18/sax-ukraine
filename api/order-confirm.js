@@ -5,6 +5,7 @@ const nodemailer = require('nodemailer');
 const querystring = require('querystring');
 
 const PRODUCTS = {
+  'husy-do-vody': {name:'Українська народна пісня — Гуси до води', amount:50, pdf:'husy-do-vody-noty.pdf', mp3:'husy-do-vody-minus.mp3'},
   'hey-nalyvaite-povni-chary': {name:'Українська народна пісня — Гей наливайте, повнії чари', amount:50, pdf:'hey-nalyvaite-povni-chary-noty.pdf', mp3:'hey-nalyvaite-povni-chary-minus.mp3'},
   'varenychky': {name:'Українська народна пісня — Варенички', amount:50, pdf:'varenychky-noty.pdf', mp3:'varenychky-minus.mp3'},
   'oy-ty-halyu': {name:'Українська народна пісня — Ой ти галю', amount:50, pdf:'oy-ty-halyu-noty.pdf', mp3:'oy-ty-halyu-minus.mp3'},
