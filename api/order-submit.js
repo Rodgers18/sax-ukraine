@@ -19,6 +19,7 @@ const PRODUCTS = {
   'ni-ya-ne-tu-kokhav': {name:'Анатолій Говорадло — Ні я не ту кохав', amount:100},
   'hay-zelenyy-hay': {name:'Назарій Яремчук — Гай зелений гай', amount:100},
   'himn-ukrainy': {name:'Михайло Вербицький — Гімн України', amount:100},
+  'buzuki': {name:'Бузуки', amount:50},
 };
 
 function esc(s='') { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
