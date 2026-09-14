@@ -31,6 +31,7 @@ header{position:sticky;top:0;z-index:30;background:rgba(6,17,29,.92);backdrop-fi
 .brandmark{width:40px;height:40px;display:grid;place-items:center;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#0f1722}
 .brand b{color:var(--gold2)} .navlinks{display:flex;align-items:center;gap:6px}
 .navlinks a{padding:10px 13px;border-radius:11px;color:#e8eef5;font-size:14px} .navlinks a:hover{background:rgba(255,255,255,.06)}
+.notes-mobile{display:none}
 .navcta{background:var(--gold)!important;color:#111827!important;font-weight:900}
 
 .hero{background:linear-gradient(120deg,#06111d 0%,#0b1b2a 58%,#0d1822 100%);color:white}
@@ -91,7 +92,7 @@ h1 em{font-style:normal;color:var(--gold2)} .lead{font-size:19px;line-height:1.6
 .final h2{font-family:Georgia,serif;font-size:35px;margin:9px 0} .final p{color:#b9c7d4;margin:0;line-height:1.6}
 footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:flex;justify-content:space-between;gap:24px;align-items:center;flex-wrap:wrap} .footer strong{color:white}
 
-@media(max-width:920px){.hero-grid,.product,.aboutgrid{grid-template-columns:1fr}.hero-photo{height:350px}.trustgrid{grid-template-columns:repeat(2,1fr)}.sax-grid{grid-template-columns:1fr}.whygrid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.navlinks a:not(.navcta){display:none}}
+@media(max-width:920px){.hero-grid,.product,.aboutgrid{grid-template-columns:1fr}.hero-photo{height:350px}.trustgrid{grid-template-columns:repeat(2,1fr)}.sax-grid{grid-template-columns:1fr}.whygrid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.navlinks a:not(.navcta):not(.notes-link){display:none}.notes-link{font-weight:800}.notes-desktop{display:none}.notes-mobile{display:inline}.nav{gap:8px}.navlinks{gap:3px}.navlinks a{padding:9px 10px;font-size:13px}}
 @media(max-width:560px){.wrap{padding:0 16px}h1{font-size:42px;white-space:normal}.hero-title-main,.hero-title-sub{white-space:normal}.trustgrid,.whygrid,.steps{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.product{padding:20px}.product h3{font-size:31px}.price-row,.final{align-items:flex-start;flex-direction:column}}
 
 /* Normalized website image sizes */
@@ -128,7 +129,7 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 <div class="wrap nav">
 <a class="brand" href="/"><span class="brandmark">🎷</span><span>SAX <b>UKRAINE</b></span></a>
 <nav class="navlinks">
-<a href="/noty-dlya-saksofona.html">Ноти для саксофона</a><a href="#catalog">Каталог</a><a href="#saxlife">Саксофон</a><a href="#about">Про нас</a><a href="#faq">FAQ</a>
+<a class="notes-link" href="/noty-dlya-saksofona.html"><span class="notes-desktop">Ноти для саксофона</span><span class="notes-mobile">Ноти</span></a><a href="#catalog">Каталог</a><a href="#saxlife">Саксофон</a><a href="#about">Про нас</a><a href="#faq">FAQ</a>
 <a class="navcta" href="#catalog">Обрати ноти</a>
 </nav>
 </div>
