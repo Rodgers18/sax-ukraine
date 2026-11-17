@@ -69,6 +69,11 @@
       "source": "/noty-dlya-saksofona",
       "destination": "/noty-dlya-saksofona.html",
       "permanent": true
+    },
+    {
+      "source": "/shugar-nimesil-saxophone",
+      "destination": "/shugar-nimesil-saxophone.html",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -135,6 +140,10 @@
     {
       "source": "/returns.html",
       "destination": "/public/returns.html"
+    },
+    {
+      "source": "/shugar-nimesil-saxophone.html",
+      "destination": "/public/shugar-nimesil-saxophone.html"
     }
   ],
   "headers": [
