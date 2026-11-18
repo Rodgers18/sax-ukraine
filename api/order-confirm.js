@@ -22,6 +22,8 @@ const PRODUCTS = {
   'ni-ya-ne-tu-kokhav': {name:'Анатолій Говорадло — Ні я не ту кохав', amount:100, pdf:'ni-ya-ne-tu-kokhav-noty.pdf', mp3:'ni-ya-ne-tu-kokhav-minus.mp3'},
   'hay-zelenyy-hay': {name:'Назарій Яремчук — Гай зелений гай', amount:100, pdf:'hay-zelenyy-hay-noty.pdf', mp3:'hay-zelenyy-hay-minus.mp3'},
   'himn-ukrainy': {name:'Михайло Вербицький — Гімн України', amount:100, pdf:'himn-ukrainy-noty.pdf', mp3:'himn-ukrainy-minus.mp3'},
+  'andriy-osadchuk-bilyi-buket': {name:'Андрій Осадчук — Білий букет', amount:100, pdf:'andriy-osadchuk-bilyi-buket-noty.pdf', mp3:'andriy-osadchuk-bilyi-buket-minus.mp3'},
+  'patsyki-z-franeka-bolilo': {name:'PATSYKI Z FRANEKA — Боліло', amount:100, pdf:'patsyki-z-franeka-bolilo-noty.pdf', mp3:'patsyki-z-franeka-bolilo-minus.mp3'},
   'shugar-nimesil': {name:'ШУГАР — Німесіл', amount:100, pdf:'shugar-nimesil-noty.pdf', mp3:'shugar-nimesil-minus.mp3'},
   'buzuki': {name:'Бузуки', amount:50, pdf:'buzuki-noty.pdf', mp3:'buzuki-minus.mp3'},
 };

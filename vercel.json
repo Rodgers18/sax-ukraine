@@ -74,6 +74,16 @@
       "source": "/shugar-nimesil-saxophone",
       "destination": "/shugar-nimesil-saxophone.html",
       "permanent": true
+    },
+    {
+      "source": "/patsyki-z-franeka-bolilo-saxophone",
+      "destination": "/patsyki-z-franeka-bolilo-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/andriy-osadchuk-bilyi-buket-saxophone",
+      "destination": "/andriy-osadchuk-bilyi-buket-saxophone.html",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -144,6 +154,14 @@
     {
       "source": "/shugar-nimesil-saxophone.html",
       "destination": "/public/shugar-nimesil-saxophone.html"
+    },
+    {
+      "source": "/patsyki-z-franeka-bolilo-saxophone.html",
+      "destination": "/public/patsyki-z-franeka-bolilo-saxophone.html"
+    },
+    {
+      "source": "/andriy-osadchuk-bilyi-buket-saxophone.html",
+      "destination": "/public/andriy-osadchuk-bilyi-buket-saxophone.html"
     }
   ],
   "headers": [

@@ -19,6 +19,8 @@ const PRODUCTS = {
   'ni-ya-ne-tu-kokhav': {name:'Анатолій Говорадло — Ні я не ту кохав', amount:100},
   'hay-zelenyy-hay': {name:'Назарій Яремчук — Гай зелений гай', amount:100},
   'himn-ukrainy': {name:'Михайло Вербицький — Гімн України', amount:100},
+  'andriy-osadchuk-bilyi-buket': {name:'Андрій Осадчук — Білий букет', amount:100},
+  'patsyki-z-franeka-bolilo': {name:'PATSYKI Z FRANEKA — Боліло', amount:100},
   'shugar-nimesil': {name:'ШУГАР — Німесіл', amount:100},
   'buzuki': {name:'Бузуки', amount:50},
 };
