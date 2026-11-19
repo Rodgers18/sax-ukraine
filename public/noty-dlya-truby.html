@@ -41,6 +41,23 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 .prod-actions{display:flex;gap:12px;flex-wrap:wrap}
 .prod-actions .btn{background:#d9a338;color:#151e27}
 .product-catalog{margin-top:20px}
+
+/* Оплата прямо з каталогу труби B♭. */
+.catalog-checkout{margin-top:17px;padding:18px;border:1px solid #e7dac3;border-radius:15px;background:#faf7ef}
+.catalog-checkout h3{font-size:19px;margin:0 0 5px;color:#152234}
+.catalog-checkout p{font-size:13px;line-height:1.5;margin:5px 0 11px}
+.catalog-consent{display:flex;align-items:flex-start;gap:10px;font-size:13px;line-height:1.5;color:#435262;cursor:pointer}
+.catalog-consent input{width:18px;height:18px;flex:0 0 18px;margin-top:2px;accent-color:#ba8520}
+.catalog-consent a{color:#765010;text-decoration:underline;text-underline-offset:2px}
+.catalog-pay{display:block;margin:14px 0 12px;padding:13px 15px;text-align:center;font-size:16px;line-height:1.35;background:#7ecb1a;border-radius:12px;color:#142600;font-weight:900}
+.catalog-pay[aria-disabled="true"]{opacity:.52;cursor:not-allowed}
+.catalog-order-form{display:grid;gap:9px;margin-top:12px}
+.catalog-order-form input:not([name="website"]){width:100%;padding:12px;border:1px solid #cbd5de;border-radius:10px;font:inherit;font-size:14px;color:#162635;background:#fff}
+.catalog-order-form button{border:0;border-radius:10px;background:#e8b84c;padding:12px 14px;font-weight:800;color:#1c2733;cursor:pointer}
+.catalog-order-form button:disabled{opacity:.55;cursor:wait}
+.catalog-order-form .order-status{min-height:18px;margin:0;font-size:13px}
+.catalog-order-form .order-status.ok{color:#156b39}
+.catalog-order-form .order-status.err{color:#b52d31}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Українські ноти для труби B♭","description":"Ноти для труби B♭ з фонограмами MP3 та демозаписами: DOROFEEVA — А я все плакала, ШУГАР — Німесіл.","mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"url":"https://sax-ukraine.vercel.app/a-ya-vse-plakala-trumpet.html"},{"@type":"ListItem","position":2,"url":"https://sax-ukraine.vercel.app/shugar-nimesil-trumpet.html"}]},"url":"https://sax-ukraine.vercel.app/noty-dlya-truby.html","inLanguage":"uk-UA"}</script>
 </head>
@@ -59,7 +76,22 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 <img class="product-preview" src="/assets/a-ya-vse-plakala-trumpet-preview-blur.png?v=1" alt="Прев’ю нот DOROFEEVA — А я все плакала для труби B♭: два чітких рядки, решта розмита" loading="lazy">
 <p style="font-size:13px">Для перегляду доступні тільки два нотні рядки. Повна партія надсилається після підтвердження оплати.</p>
 <div class="product-price">100 грн</div>
-<a class="btn primary" href="/a-ya-vse-plakala-trumpet.html">Переглянути ноти та замовити →</a>
+<a class="link" href="/a-ya-vse-plakala-trumpet.html">Детальніше про композицію →</a>
+<section class="catalog-checkout" aria-label="Замовити комплект DOROFEEVA — А я все плакала">
+<h3>Придбати ноти та фонограму — 100 грн</h3>
+<p>Оплатіть комплект через Приват24, потім введіть ім’я платника та email, щоб отримати PDF і MP3.</p>
+<label class="catalog-consent"><input type="checkbox" class="catalog-consent-check"><span>Я погоджуюся з <a href="/offer.html" target="_blank" rel="noopener">публічною офертою</a> та <a href="/privacy.html" target="_blank" rel="noopener">політикою конфіденційності</a> і прошу розпочати цифрову доставку після підтвердження оплати.</span></label>
+<a class="catalog-pay" href="https://www.privat24.ua/send/4xbgb" target="_blank" rel="noopener noreferrer" aria-disabled="true">💳 Оплатити 100 грн через Приват24</a>
+<form class="catalog-order-form" data-product="a-ya-vse-plakala-trumpet">
+<input type="text" name="payerName" required maxlength="80" placeholder="Ім’я платника" aria-label="Ім’я платника">
+<input type="email" name="email" required maxlength="180" placeholder="Email для отримання нот" aria-label="Email для отримання нот">
+<input type="text" name="note" maxlength="120" placeholder="Коментар (необов’язково)" aria-label="Коментар">
+<input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+<button type="submit">✅ Я оплатив — повідомити продавця</button>
+<p class="order-status" role="status" aria-live="polite"></p>
+</form>
+<p>Ноти PDF і повна фонограма MP3 будуть надіслані після перевірки оплати продавцем.</p>
+</section>
 </article>
 <aside class="card">
 <h2>Прослухайте демо</h2>
@@ -79,7 +111,22 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 <img class="product-preview" src="/assets/shugar-nimesil-trumpet-preview-blur.png?v=1" alt="Два відкриті рядки нот ШУГАР Німесіл для труби B♭, решта розмита" loading="lazy">
 <p style="font-size:13px">Для перегляду доступний лише фрагмент. Повна партія надсилається після підтвердження оплати.</p>
 <div class="product-price">100 грн</div>
-<a class="btn primary" href="/shugar-nimesil-trumpet.html">Переглянути ноти та замовити →</a>
+<a class="link" href="/shugar-nimesil-trumpet.html">Детальніше про композицію →</a>
+<section class="catalog-checkout" aria-label="Замовити комплект ШУГАР — Німесіл">
+<h3>Придбати ноти та фонограму — 100 грн</h3>
+<p>Оплатіть комплект через Приват24, потім введіть ім’я платника та email, щоб отримати PDF і MP3.</p>
+<label class="catalog-consent"><input type="checkbox" class="catalog-consent-check"><span>Я погоджуюся з <a href="/offer.html" target="_blank" rel="noopener">публічною офертою</a> та <a href="/privacy.html" target="_blank" rel="noopener">політикою конфіденційності</a> і прошу розпочати цифрову доставку після підтвердження оплати.</span></label>
+<a class="catalog-pay" href="https://www.privat24.ua/send/4xbgb" target="_blank" rel="noopener noreferrer" aria-disabled="true">💳 Оплатити 100 грн через Приват24</a>
+<form class="catalog-order-form" data-product="shugar-nimesil-trumpet">
+<input type="text" name="payerName" required maxlength="80" placeholder="Ім’я платника" aria-label="Ім’я платника">
+<input type="email" name="email" required maxlength="180" placeholder="Email для отримання нот" aria-label="Email для отримання нот">
+<input type="text" name="note" maxlength="120" placeholder="Коментар (необов’язково)" aria-label="Коментар">
+<input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+<button type="submit">✅ Я оплатив — повідомити продавця</button>
+<p class="order-status" role="status" aria-live="polite"></p>
+</form>
+<p>Ноти PDF і повна фонограма MP3 будуть надіслані після перевірки оплати продавцем.</p>
+</section>
 </article>
 <aside class="card">
 <h2>Прослухайте демо</h2>
@@ -93,5 +140,51 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 </div></section>
 </main>
 <footer><div class="wrap foot"><div><strong>SAX UKRAINE</strong><div>Українські ноти для саксофона та труби</div></div><div><a href="/offer.html">Публічна оферта</a> · <a href="/privacy.html">Конфіденційність</a> · <a href="/payment-delivery.html">Оплата і доставка</a></div></div></footer>
+
+<script>
+// Окреме замовлення для кожного товару каталогу труби.
+document.querySelectorAll('.catalog-checkout').forEach(block=>{
+  const check=block.querySelector('.catalog-consent-check');
+  const pay=block.querySelector('.catalog-pay');
+  const sync=()=>pay.setAttribute('aria-disabled', check.checked?'false':'true');
+  check.addEventListener('change',sync);
+  pay.addEventListener('click',e=>{
+    if(!check.checked){
+      e.preventDefault();
+      check.focus();
+    }
+  });
+  sync();
+  const form=block.querySelector('.catalog-order-form');
+  form.addEventListener('submit', async e=>{
+    e.preventDefault();
+    const button=form.querySelector('button[type="submit"]');
+    const status=form.querySelector('.order-status');
+    button.disabled=true;
+    status.className='order-status';
+    status.textContent='Надсилаємо повідомлення продавцю…';
+    const payload={
+      product:form.dataset.product,
+      payerName:form.elements.payerName.value.trim(),
+      email:form.elements.email.value.trim(),
+      note:form.elements.note.value.trim(),
+      website:form.elements.website.value
+    };
+    try{
+      const response=await fetch('/api/order-submit',{
+        method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)
+      });
+      const result=await response.json();
+      if(!response.ok)throw new Error(result.error||'Не вдалося надіслати повідомлення');
+      status.className='order-status ok';
+      status.textContent='Замовлення надіслано! Після підтвердження оплати PDF і MP3 прийдуть на ваш email.';
+      form.reset();
+    }catch(error){
+      status.className='order-status err';
+      status.textContent=error.message||'Помилка надсилання замовлення';
+    }finally{button.disabled=false;}
+  });
+});
+</script>
 </body>
 </html>
