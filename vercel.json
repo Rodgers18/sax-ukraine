@@ -99,6 +99,11 @@
       "source": "/a-ya-vse-plakala-trumpet",
       "destination": "/a-ya-vse-plakala-trumpet.html",
       "permanent": true
+    },
+    {
+      "source": "/enkarapista-trumpet",
+      "destination": "/enkarapista-trumpet.html",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -189,6 +194,10 @@
     {
       "source": "/a-ya-vse-plakala-trumpet.html",
       "destination": "/public/a-ya-vse-plakala-trumpet.html"
+    },
+    {
+      "source": "/enkarapista-trumpet.html",
+      "destination": "/public/enkarapista-trumpet.html"
     }
   ],
   "headers": [

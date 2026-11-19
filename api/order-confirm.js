@@ -24,6 +24,7 @@ const PRODUCTS = {
   'himn-ukrainy': {name:'Михайло Вербицький — Гімн України', amount:100, pdf:'himn-ukrainy-noty.pdf', mp3:'himn-ukrainy-minus.mp3'},
   'andriy-osadchuk-bilyi-buket': {name:'Андрій Осадчук — Білий букет', amount:100, pdf:'andriy-osadchuk-bilyi-buket-noty.pdf', mp3:'andriy-osadchuk-bilyi-buket-minus.mp3'},
   'patsyki-z-franeka-bolilo': {name:'PATSYKI Z FRANEKA — Боліло', amount:100, pdf:'patsyki-z-franeka-bolilo-noty.pdf', mp3:'patsyki-z-franeka-bolilo-minus.mp3'},
+  'enkarapista-trumpet': {name:'DREVO — Енкарапіста (труба B♭)', amount:100, pdf:'enkarapista-trumpet-noty.pdf', mp3:'enkarapista-trumpet-minus.mp3'},
   'a-ya-vse-plakala-trumpet': {name:'DOROFEEVA — А я все плакала (труба B♭)', amount:100, pdf:'a-ya-vse-plakala-trumpet-noty.pdf', mp3:'a-ya-vse-plakala-trumpet-minus.mp3'},
   'shugar-nimesil-trumpet': {name:'ШУГАР — Німесіл (труба B♭)', amount:100, pdf:'shugar-nimesil-trumpet-noty.pdf', mp3:'shugar-nimesil-trumpet-minus.mp3'},
   'shugar-nimesil': {name:'ШУГАР — Німесіл', amount:100, pdf:'shugar-nimesil-noty.pdf', mp3:'shugar-nimesil-minus.mp3'},

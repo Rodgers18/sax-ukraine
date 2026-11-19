@@ -69,3 +69,9 @@
 - Публічні файли: `public/assets/a-ya-vse-plakala-trumpet-demo.mp3`, `public/assets/a-ya-vse-plakala-trumpet-preview-blur.png`.
 - Приватні файли: `private-products/a-ya-vse-plakala-trumpet-noty.pdf`, `private-products/a-ya-vse-plakala-trumpet-minus.mp3`.
 - Ціна 100 грн. Саксофонна версія і старі товари не змінені.
+
+## Новий товар для труби B♭ — DREVO «Енкарапіста» (19.11.2026)
+- Каталог: `public/noty-dlya-truby.html`, сторінка: `public/enkarapista-trumpet.html`.
+- Демо: `public/assets/enkarapista-trumpet-demo.mp3`; заблюрене прев’ю: `public/assets/enkarapista-trumpet-preview-blur.png`.
+- Приватні файли: `private-products/enkarapista-trumpet-noty.pdf` (труба B♭) і `private-products/enkarapista-trumpet-minus.mp3`.
+- Ціна: 100 грн; доставка PDF + MP3 після підтвердження оплати.
