@@ -42,7 +42,12 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 .prod-actions .btn{background:#d9a338;color:#151e27}
 .product-catalog{margin-top:20px}
 
-/* Оплата прямо з каталогу труби B♭. */
+/* Демо та оплата — праворуч від нот, як у каталозі саксофона. */
+.product-catalog > .card{min-width:0}
+.product-catalog > aside.card{align-self:start}
+.product-catalog > aside.card .catalog-checkout{margin-top:20px}
+.product-catalog > aside.card .features{margin-top:16px}
+@media(max-width:730px){.product-catalog{grid-template-columns:1fr}.product-catalog > aside.card{margin-top:-10px;margin-bottom:18px}}
 .catalog-checkout{margin-top:17px;padding:18px;border:1px solid #e7dac3;border-radius:15px;background:#faf7ef}
 .catalog-checkout h3{font-size:19px;margin:0 0 5px;color:#152234}
 .catalog-checkout p{font-size:13px;line-height:1.5;margin:5px 0 11px}
@@ -58,6 +63,45 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 .catalog-order-form .order-status{min-height:18px;margin:0;font-size:13px}
 .catalog-order-form .order-status.ok{color:#156b39}
 .catalog-order-form .order-status.err{color:#b52d31}
+
+/* Compact product layout aligned with the SAX UKRAINE saxophone catalogue. */
+#catalog.wrap{max-width:1100px}
+.product-catalog{grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:22px;align-items:start}
+.product-catalog>.card{min-width:0;border-radius:20px;padding:20px;box-shadow:0 10px 28px rgba(21,33,50,.07)}
+.product-catalog>article.card h2{font:700 30px/1.2 Georgia,serif;margin:11px 0 9px}
+.product-catalog>article.card p{font-size:14px;line-height:1.55;margin:8px 0}
+.product-catalog .status{font-size:12px;padding:5px 11px}
+.product-catalog .product-chips{gap:6px;margin:11px 0}
+.product-catalog .product-chips span{font-size:12px;padding:6px 9px}
+.product-catalog .product-preview{width:100%;aspect-ratio:16/9;max-height:265px;object-fit:cover;object-position:top;margin:13px 0 10px;border-radius:14px}
+.product-catalog .product-price{font-size:32px;margin:10px 0 5px}
+.product-catalog .link{font-size:13px;margin-top:7px}
+.product-catalog>aside.card{background:#0b1724;border-color:#243a50;color:#fff;padding:20px;border-radius:20px}
+.product-catalog>aside.card h2{font:800 18px/1.35 Inter,system-ui,Segoe UI,Arial,sans-serif;color:#fff;margin:0 0 7px}
+.product-catalog>aside.card>p{color:#afbdcb;font-size:13px;line-height:1.5;margin:0 0 11px}
+.product-catalog .demo-player{width:100%;margin:8px 0 12px}
+.product-catalog>aside.card .catalog-checkout{margin:8px 0 0;padding:15px;border-color:#2d4861;background:#0f2032;border-radius:14px}
+.product-catalog .catalog-checkout h3{color:#fff;font-size:17px;line-height:1.35;margin:0 0 6px}
+.product-catalog .catalog-checkout p{color:#a8bacc;font-size:12px;margin:5px 0 10px;line-height:1.5}
+.product-catalog .catalog-consent{font-size:12px;color:#d8e2eb;line-height:1.45;gap:8px}
+.product-catalog .catalog-consent a{color:#f4ce74}
+.product-catalog .catalog-pay{font-size:14px;padding:11px 10px;margin:10px 0;border-radius:11px}
+.product-catalog .catalog-order-form{gap:8px;margin-top:10px}
+.product-catalog .catalog-order-form input:not([name="website"]){padding:10px;font-size:13px;background:#102438;color:#fff;border:1px solid #2d4861}
+.product-catalog .catalog-order-form input::placeholder{color:#a9b8c7;opacity:1}
+.product-catalog .catalog-order-form button{padding:11px 10px;font-size:13px}
+.product-catalog .catalog-order-form .order-status{color:#a8bacc}
+.product-catalog .catalog-order-form .order-status.ok{color:#79dc93}
+.product-catalog .catalog-order-form .order-status.err{color:#ff9999}
+.product-catalog>aside.card .link{color:#f3cf7a;display:inline-block;margin-top:12px;font-size:13px}
+.product-catalog>aside.card .alternative-version{color:#a8bacc;font-size:12px;margin:10px 0 0;line-height:1.45}
+.product-catalog>aside.card .alternative-version a{color:#f3cf7a!important}
+@media(max-width:920px){
+  .product-catalog{grid-template-columns:minmax(0,1fr);gap:12px}
+  .product-catalog>aside.card{margin:0 0 18px;padding:18px}
+  .product-catalog>.card{padding:18px}
+  .product-catalog .product-preview{max-height:300px}
+}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Українські ноти для труби B♭","description":"Ноти для труби B♭ з фонограмами MP3 та демозаписами: DOROFEEVA — А я все плакала, ШУГАР — Німесіл.","mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"url":"https://sax-ukraine.vercel.app/a-ya-vse-plakala-trumpet.html"},{"@type":"ListItem","position":2,"url":"https://sax-ukraine.vercel.app/shugar-nimesil-trumpet.html"}]},"url":"https://sax-ukraine.vercel.app/noty-dlya-truby.html","inLanguage":"uk-UA"}</script>
 </head>
@@ -77,6 +121,11 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 <p style="font-size:13px">Для перегляду доступні тільки два нотні рядки. Повна партія надсилається після підтвердження оплати.</p>
 <div class="product-price">100 грн</div>
 <a class="link" href="/a-ya-vse-plakala-trumpet.html">Детальніше про композицію →</a>
+</article>
+<aside class="card">
+<h2>Прослухайте демо</h2>
+<p>Демонстраційний фрагмент «А я все плакала» для труби. Послухайте звучання перед замовленням.</p>
+<audio class="demo-player" controls preload="metadata"><source src="/assets/a-ya-vse-plakala-trumpet-demo.mp3" type="audio/mpeg"></audio>
 <section class="catalog-checkout" aria-label="Замовити комплект DOROFEEVA — А я все плакала">
 <h3>Придбати ноти та фонограму — 100 грн</h3>
 <p>Оплатіть комплект через Приват24, потім введіть ім’я платника та email, щоб отримати PDF і MP3.</p>
@@ -90,17 +139,8 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 <button type="submit">✅ Я оплатив — повідомити продавця</button>
 <p class="order-status" role="status" aria-live="polite"></p>
 </form>
-<p>Ноти PDF і повна фонограма MP3 будуть надіслані після перевірки оплати продавцем.</p>
 </section>
-</article>
-<aside class="card">
-<h2>Прослухайте демо</h2>
-<p>Демонстраційний фрагмент «А я все плакала» для труби. Послухайте звучання перед замовленням.</p>
-<audio class="demo-player" controls preload="metadata"><source src="/assets/a-ya-vse-plakala-trumpet-demo.mp3" type="audio/mpeg"></audio>
-<h2 style="font-size:23px">У комплекті</h2>
-<ul class="features"><li><span>🎼</span><span><b>Ноти PDF</b> — повна партія для труби в B♭</span></li><li><span>🎶</span><span><b>MP3</b> — повна фонограма без сольної партії</span></li><li><span>📩</span><span><b>Надсилання на email</b> після підтвердження оплати продавцем</span></li></ul>
-<a class="link" href="/a-ya-vse-plakala-trumpet.html">Відкрити сторінку «А я все плакала» →</a>
-<p style="font-size:13px;margin-top:25px">Також доступна <a href="/a-ya-vse-plakala-saxophone.html" style="color:#78510d;text-decoration:underline">версія для альт-саксофона</a>.</p>
+<p class="alternative-version">Також доступна <a href="/a-ya-vse-plakala-saxophone.html" style="color:#78510d;text-decoration:underline">версія для альт-саксофона</a>.</p>
 </aside>
 
 <article class="card">
@@ -112,6 +152,11 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 <p style="font-size:13px">Для перегляду доступний лише фрагмент. Повна партія надсилається після підтвердження оплати.</p>
 <div class="product-price">100 грн</div>
 <a class="link" href="/shugar-nimesil-trumpet.html">Детальніше про композицію →</a>
+</article>
+<aside class="card">
+<h2>Прослухайте демо</h2>
+<p>Фрагмент «Німесіл» у виконанні труби. Перед замовленням можна оцінити мелодію та акомпанемент.</p>
+<audio class="demo-player" controls preload="metadata"><source src="/assets/shugar-nimesil-trumpet-demo.mp3" type="audio/mpeg"></audio>
 <section class="catalog-checkout" aria-label="Замовити комплект ШУГАР — Німесіл">
 <h3>Придбати ноти та фонограму — 100 грн</h3>
 <p>Оплатіть комплект через Приват24, потім введіть ім’я платника та email, щоб отримати PDF і MP3.</p>
@@ -125,17 +170,8 @@ footer{background:#06111d;color:#a8bbc9;padding:28px 0}footer .foot{display:flex
 <button type="submit">✅ Я оплатив — повідомити продавця</button>
 <p class="order-status" role="status" aria-live="polite"></p>
 </form>
-<p>Ноти PDF і повна фонограма MP3 будуть надіслані після перевірки оплати продавцем.</p>
 </section>
-</article>
-<aside class="card">
-<h2>Прослухайте демо</h2>
-<p>Фрагмент «Німесіл» у виконанні труби. Перед замовленням можна оцінити мелодію та акомпанемент.</p>
-<audio class="demo-player" controls preload="metadata"><source src="/assets/shugar-nimesil-trumpet-demo.mp3" type="audio/mpeg"></audio>
-<h2 style="font-size:23px">У комплекті</h2>
-<ul class="features"><li><span>🎼</span><span><b>Ноти PDF</b> — повна партія труби в B♭</span></li><li><span>🎶</span><span><b>MP3</b> — повна фонограма для виконання</span></li><li><span>📩</span><span><b>Надсилання на email</b> після ручного підтвердження оплати</span></li></ul>
-<a class="link" href="/shugar-nimesil-trumpet.html">Відкрити сторінку «Німесіл» →</a>
-<p style="font-size:13px;margin-top:25px">Шукаєте ноти для іншого інструмента? <a href="/shugar-nimesil-saxophone.html" style="color:#78510d;text-decoration:underline">Версія для альт-саксофона</a> доступна окремо.</p>
+<p class="alternative-version">Шукаєте ноти для іншого інструмента? <a href="/shugar-nimesil-saxophone.html" style="color:#78510d;text-decoration:underline">Версія для альт-саксофона</a> доступна окремо.</p>
 </aside>
 </div></section>
 </main>
