@@ -63,3 +63,9 @@
 ## Додано 17 листопада 2026
 - ШУГАР — «Німесіл», ціна 100 грн. Ноти PDF із логотипом SAX UKRAINE, MP3-конверсія повного WAV і наданий демозапис без змін.
 - Сторінка `/shugar-nimesil-saxophone.html`. Відправлення повних PDF+MP3 після підтвердження платежу в адмін-листі.
+
+## Додано 19 листопада 2026 — DOROFEEVA, труба B♭
+- Каталог: `/noty-dlya-truby.html`, товар: `/a-ya-vse-plakala-trumpet.html`.
+- Публічні файли: `public/assets/a-ya-vse-plakala-trumpet-demo.mp3`, `public/assets/a-ya-vse-plakala-trumpet-preview-blur.png`.
+- Приватні файли: `private-products/a-ya-vse-plakala-trumpet-noty.pdf`, `private-products/a-ya-vse-plakala-trumpet-minus.mp3`.
+- Ціна 100 грн. Саксофонна версія і старі товари не змінені.

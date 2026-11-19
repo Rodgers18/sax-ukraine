@@ -21,6 +21,8 @@ const PRODUCTS = {
   'himn-ukrainy': {name:'Михайло Вербицький — Гімн України', amount:100},
   'andriy-osadchuk-bilyi-buket': {name:'Андрій Осадчук — Білий букет', amount:100},
   'patsyki-z-franeka-bolilo': {name:'PATSYKI Z FRANEKA — Боліло', amount:100},
+  'a-ya-vse-plakala-trumpet': {name:'DOROFEEVA — А я все плакала (труба B♭)', amount:100},
+  'shugar-nimesil-trumpet': {name:'ШУГАР — Німесіл (труба B♭)', amount:100},
   'shugar-nimesil': {name:'ШУГАР — Німесіл', amount:100},
   'buzuki': {name:'Бузуки', amount:50},
 };

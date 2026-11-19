@@ -92,8 +92,8 @@ h1 em{font-style:normal;color:var(--gold2)} .lead{font-size:19px;line-height:1.6
 .final h2{font-family:Georgia,serif;font-size:35px;margin:9px 0} .final p{color:#b9c7d4;margin:0;line-height:1.6}
 footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:flex;justify-content:space-between;gap:24px;align-items:center;flex-wrap:wrap} .footer strong{color:white}
 
-@media(max-width:920px){.hero-grid,.product,.aboutgrid{grid-template-columns:1fr}.hero-photo{height:350px}.trustgrid{grid-template-columns:repeat(2,1fr)}.sax-grid{grid-template-columns:1fr}.whygrid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.navlinks a:not(.navcta):not(.notes-link){display:none}.notes-link{font-weight:800}.notes-desktop{display:none}.notes-mobile{display:inline}.nav{gap:8px}.navlinks{gap:3px}.navlinks a{padding:9px 10px;font-size:13px}}
-@media(max-width:560px){.wrap{padding:0 16px}h1{font-size:42px;white-space:normal}.hero-title-main,.hero-title-sub{white-space:normal}.trustgrid,.whygrid,.steps{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.product{padding:20px}.product h3{font-size:31px}.price-row,.final{align-items:flex-start;flex-direction:column}}
+@media(max-width:920px){.hero-grid,.product,.aboutgrid{grid-template-columns:1fr}.hero-photo{height:350px}.trustgrid{grid-template-columns:repeat(2,1fr)}.sax-grid{grid-template-columns:1fr}.whygrid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.navlinks a:not(.navcta):not(.notes-link):not(.trumpet-link){display:none}.notes-link{font-weight:800}.notes-desktop{display:none}.notes-mobile{display:inline}.nav{gap:8px}.navlinks{gap:3px}.navlinks a{padding:9px 10px;font-size:13px}}
+@media(max-width:560px){.navlinks .navcta{display:none}.brandmark{width:34px;height:34px}.navlinks a{padding:8px 7px}.brand{gap:7px;font-size:14px}.wrap{padding:0 16px}h1{font-size:42px;white-space:normal}.hero-title-main,.hero-title-sub{white-space:normal}.trustgrid,.whygrid,.steps{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.product{padding:20px}.product h3{font-size:31px}.price-row,.final{align-items:flex-start;flex-direction:column}}
 
 /* Normalized website image sizes */
 .hero-photo img{width:100%;height:100%;object-fit:contain;object-position:center;background:#050b12;display:block}
@@ -105,6 +105,17 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
   .aboutphoto{min-height:280px}
 }
 
+
+/* Instrument directory */
+.instrument-list{display:grid;grid-template-columns:1fr 1fr;gap:19px}
+.instrument-item{display:flex;align-items:center;gap:20px;min-height:185px;border:1px solid #ded8cf;border-radius:22px;padding:27px;background:#fff;box-shadow:0 12px 34px rgba(21,33,50,.07);transition:transform .15s,border-color .15s}
+.instrument-item:hover{transform:translateY(-2px);border-color:#d0a443}
+.instrument-icon{display:grid;place-items:center;width:70px;height:70px;flex:0 0 70px;border-radius:19px;background:#f6e8c8;font-size:37px}
+.instrument-item h3{font:700 26px Georgia,serif;margin:0 0 8px;color:#142336}
+.instrument-item p{margin:0 0 11px;line-height:1.5;color:#667687;font-size:14px}
+.instrument-item .instrument-more{font-weight:850;font-size:14px;color:#92600a}
+@media(max-width:780px){.instrument-list{grid-template-columns:1fr}.instrument-item{min-height:0}}
+@media(max-width:380px){.instrument-item{gap:13px;padding:17px}.instrument-item h3{font-size:22px}.instrument-icon{width:55px;height:55px;flex-basis:55px;font-size:29px}}
 </style>
 <script type="application/ld+json">
 {
@@ -129,7 +140,7 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 <div class="wrap nav">
 <a class="brand" href="/"><span class="brandmark">🎷</span><span>SAX <b>UKRAINE</b></span></a>
 <nav class="navlinks">
-<a class="notes-link" href="/noty-dlya-saksofona.html"><span class="notes-desktop">Ноти для саксофона</span><span class="notes-mobile">Ноти</span></a><a href="#catalog">Каталог</a><a href="#saxlife">Саксофон</a><a href="#about">Про нас</a><a href="#faq">FAQ</a>
+<a class="notes-link" href="/noty-dlya-saksofona.html"><span class="notes-desktop">Ноти для саксофона</span><span class="notes-mobile">Саксофон</span></a><a class="trumpet-link" href="/noty-dlya-truby.html"><span class="notes-desktop">Ноти для труби</span><span class="notes-mobile">Труба</span></a><a href="#catalog">Каталог</a><a href="#saxlife">Саксофон</a><a href="#about">Про нас</a><a href="#faq">FAQ</a>
 <a class="navcta" href="#catalog">Обрати ноти</a>
 </nav>
 </div>
@@ -159,6 +170,13 @@ footer{background:#06101b;color:#9cadbd;padding:38px 0 50px} .footer{display:fle
 <div class="trustitem"><div>🇺🇦</div><div><strong>Український репертуар</strong><span>Сучасні композиції</span></div></div>
 </div>
 </section>
+
+<section id="instruments" class="wrap section" aria-labelledby="instrument-title">
+<div class="section-head"><div><span class="eyebrow">ОБЕРІТЬ ІНСТРУМЕНТ</span><h2 id="instrument-title">Українські ноти за інструментами</h2></div><p>Окремі каталоги для різних строїв і виконавських можливостей. Оберіть інструмент, щоб перейти до відповідних партій.</p></div>
+<div class="instrument-list">
+<a class="instrument-item" href="/noty-dlya-saksofona.html"><span class="instrument-icon" aria-hidden="true">🎷</span><span><h3>Ноти для альт-саксофона</h3><p>21 твір: українські композиції, PDF-партії, демозаписи та мінусовки MP3.</p><span class="instrument-more">Перейти до каталогу →</span></span></a>
+<a class="instrument-item" href="/noty-dlya-truby.html"><span class="instrument-icon" aria-hidden="true">🎺</span><span><h3>Українські ноти для труби</h3><p>Ноти для труби B♭: «А я все плакала» та «Німесіл» — PDF, мінусовки MP3 й демо.</p><span class="instrument-more">Переглянути ноти та демо →</span></span></a>
+</div>
 
 <section id="saxlife" class="wrap section">
 <div class="section-head">

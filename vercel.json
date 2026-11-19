@@ -84,6 +84,21 @@
       "source": "/andriy-osadchuk-bilyi-buket-saxophone",
       "destination": "/andriy-osadchuk-bilyi-buket-saxophone.html",
       "permanent": true
+    },
+    {
+      "source": "/noty-dlya-truby",
+      "destination": "/noty-dlya-truby.html",
+      "permanent": true
+    },
+    {
+      "source": "/shugar-nimesil-trumpet",
+      "destination": "/shugar-nimesil-trumpet.html",
+      "permanent": true
+    },
+    {
+      "source": "/a-ya-vse-plakala-trumpet",
+      "destination": "/a-ya-vse-plakala-trumpet.html",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -162,6 +177,18 @@
     {
       "source": "/andriy-osadchuk-bilyi-buket-saxophone.html",
       "destination": "/public/andriy-osadchuk-bilyi-buket-saxophone.html"
+    },
+    {
+      "source": "/noty-dlya-truby.html",
+      "destination": "/public/noty-dlya-truby.html"
+    },
+    {
+      "source": "/shugar-nimesil-trumpet.html",
+      "destination": "/public/shugar-nimesil-trumpet.html"
+    },
+    {
+      "source": "/a-ya-vse-plakala-trumpet.html",
+      "destination": "/public/a-ya-vse-plakala-trumpet.html"
     }
   ],
   "headers": [

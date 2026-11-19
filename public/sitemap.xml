@@ -6,6 +6,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url><loc>https://sax-ukraine.vercel.app/noty-dlya-truby.html</loc><lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url>
     <loc>https://sax-ukraine.vercel.app/noty-dlya-saksofona.html</loc>
     <lastmod>2026-09-09</lastmod>
@@ -71,4 +72,6 @@
   <url><loc>https://sax-ukraine.vercel.app/shugar-nimesil-saxophone.html</loc><lastmod>2026-11-17</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://sax-ukraine.vercel.app/patsyki-z-franeka-bolilo-saxophone.html</loc><lastmod>2026-11-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://sax-ukraine.vercel.app/andriy-osadchuk-bilyi-buket-saxophone.html</loc><lastmod>2026-11-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/shugar-nimesil-trumpet.html</loc><lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/a-ya-vse-plakala-trumpet.html</loc><lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
