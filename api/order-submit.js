@@ -25,6 +25,8 @@ const PRODUCTS = {
   'a-ya-vse-plakala-trumpet': {name:'DOROFEEVA — А я все плакала (труба B♭)', amount:100},
   'shugar-nimesil-trumpet': {name:'ШУГАР — Німесіл (труба B♭)', amount:100},
   'shugar-nimesil': {name:'ШУГАР — Німесіл', amount:100},
+  'chervoni-praportsi': {name:'DOROFEEVA — Червоні прапорці (альт-саксофон E♭)', amount:100},
+  'chervoni-praportsi-trumpet': {name:'DOROFEEVA — Червоні прапорці (труба B♭)', amount:100},
   'prykuti': {name:'Прикуті', amount:100},
   'prykuti-trumpet': {name:'Прикуті (труба B♭)', amount:100},
   'buzuki': {name:'Бузуки', amount:50},

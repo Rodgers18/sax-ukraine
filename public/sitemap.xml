@@ -6,10 +6,10 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url><loc>https://sax-ukraine.vercel.app/noty-dlya-truby.html</loc><lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/noty-dlya-truby.html</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url>
     <loc>https://sax-ukraine.vercel.app/noty-dlya-saksofona.html</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -78,4 +78,6 @@
 
   <url><loc>https://sax-ukraine.vercel.app/prykuti-saxophone.html</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://sax-ukraine.vercel.app/prykuti-trumpet.html</loc><lastmod>2026-11-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/chervoni-praportsi-saxophone.html</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sax-ukraine.vercel.app/chervoni-praportsi-trumpet.html</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

@@ -104,6 +104,26 @@
       "source": "/enkarapista-trumpet",
       "destination": "/enkarapista-trumpet.html",
       "permanent": true
+    },
+    {
+      "source": "/chervoni-praportsi-saxophone",
+      "destination": "/chervoni-praportsi-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/chervoni-praportsi-saxophone.html",
+      "destination": "/chervoni-praportsi-saxophone.html",
+      "permanent": true
+    },
+    {
+      "source": "/chervoni-praportsi-trumpet",
+      "destination": "/chervoni-praportsi-trumpet.html",
+      "permanent": true
+    },
+    {
+      "source": "/public/chervoni-praportsi-trumpet.html",
+      "destination": "/chervoni-praportsi-trumpet.html",
+      "permanent": true
     }
   ],
   "rewrites": [

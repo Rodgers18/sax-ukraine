@@ -28,6 +28,8 @@ const PRODUCTS = {
   'a-ya-vse-plakala-trumpet': {name:'DOROFEEVA — А я все плакала (труба B♭)', amount:100, pdf:'a-ya-vse-plakala-trumpet-noty.pdf', mp3:'a-ya-vse-plakala-trumpet-minus.mp3'},
   'shugar-nimesil-trumpet': {name:'ШУГАР — Німесіл (труба B♭)', amount:100, pdf:'shugar-nimesil-trumpet-noty.pdf', mp3:'shugar-nimesil-trumpet-minus.mp3'},
   'shugar-nimesil': {name:'ШУГАР — Німесіл', amount:100, pdf:'shugar-nimesil-noty.pdf', mp3:'shugar-nimesil-minus.mp3'},
+  'chervoni-praportsi': {name:'DOROFEEVA — Червоні прапорці (альт-саксофон E♭)', amount:100, pdf:'chervoni-praportsi-noty.pdf', mp3:'chervoni-praportsi-minus.mp3'},
+  'chervoni-praportsi-trumpet': {name:'DOROFEEVA — Червоні прапорці (труба B♭)', amount:100, pdf:'chervoni-praportsi-trumpet-noty.pdf', mp3:'chervoni-praportsi-minus.mp3'},
   'prykuti': {name:'Прикуті', amount:100, pdf:'prykuti-noty.pdf', mp3:'prykuti-minus.mp3'},
   'prykuti-trumpet': {name:'Прикуті (труба B♭)', amount:100, pdf:'prykuti-trumpet-noty.pdf', mp3:'prykuti-minus.mp3'},
   'buzuki': {name:'Бузуки', amount:50, pdf:'buzuki-noty.pdf', mp3:'buzuki-minus.mp3'},
