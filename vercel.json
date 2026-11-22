@@ -124,6 +124,11 @@
       "source": "/public/chervoni-praportsi-trumpet.html",
       "destination": "/chervoni-praportsi-trumpet.html",
       "permanent": true
+    },
+    {
+      "source": "/hay-zelenyy-hay-trumpet",
+      "destination": "/hay-zelenyy-hay-trumpet.html",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -218,6 +223,10 @@
     {
       "source": "/enkarapista-trumpet.html",
       "destination": "/public/enkarapista-trumpet.html"
+    },
+    {
+      "source": "/hay-zelenyy-hay-trumpet.html",
+      "destination": "/public/hay-zelenyy-hay-trumpet.html"
     }
   ],
   "headers": [

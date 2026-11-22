@@ -18,6 +18,7 @@ const PRODUCTS = {
   'ya-nikoly-nikomu-tebe-ne-viddam': {name:'Олександр Пономарьов — Я ніколи нікому тебе не віддам', amount:100},
   'ya-nikoly-nikomu-tebe-ne-viddam-trumpet': {name:'Олександр Пономарьов — Я ніколи нікому тебе не віддам (труба B♭)', amount:100},
   'ni-ya-ne-tu-kokhav': {name:'Анатолій Говорадло — Ні я не ту кохав', amount:100},
+  'hay-zelenyy-hay-trumpet': {name:'Назарій Яремчук — Гай зелений гай (труба B♭)', amount:100},
   'hay-zelenyy-hay': {name:'Назарій Яремчук — Гай зелений гай', amount:100},
   'himn-ukrainy': {name:'Михайло Вербицький — Гімн України', amount:100},
   'andriy-osadchuk-bilyi-buket': {name:'Андрій Осадчук — Білий букет', amount:100},
