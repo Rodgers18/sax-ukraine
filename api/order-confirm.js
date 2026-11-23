@@ -12,6 +12,7 @@ const PRODUCTS = {
   'rozpryahayte-khloptsi-koni': {name:'Українська народна пісня — Розпрягайте, хлопці, коні', amount:50, pdf:'rozpryahayte-khloptsi-koni-noty.pdf', mp3:'rozpryahayte-khloptsi-koni-minus.mp3'},
   'a-ya-vse-plakala': {name:'DOROFEEVA — А я все плакала', amount:100, pdf:'a-ya-vse-plakala-noty.pdf', mp3:'a-ya-vse-plakala-minus.mp3'},
   'enkarapista': {name:'DREVO — Енкарапіста', amount:100, pdf:'enkarapista-noty.pdf', mp3:'enkarapista-minus.mp3'},
+  'zatsiluyu-trumpet': {name:'Поль Манандіз — Зацілую (труба B♭)', amount:100, pdf:'zatsiluyu-trumpet-noty.pdf', mp3:'zatsiluyu-trumpet-minus.mp3'},
   'zatsiluyu': {name:'Поль Манандіз — Зацілую', amount:100, pdf:'zatsiluyu-noty.pdf', mp3:'zatsiluyu-minus.mp3'},
   'chervona-ruta': {name:'Володимир Івасюк — Червона рута', amount:100, pdf:'chervona-ruta-noty.pdf', mp3:'chervona-ruta-minus.mp3'},
   'zelen-klen': {name:'Ігор Поклад — Юрій Рибчинський — Зелен клен', amount:100, pdf:'zelen-klen-noty.pdf', mp3:'zelen-klen-minus.mp3'},

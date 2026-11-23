@@ -9,6 +9,7 @@ const PRODUCTS = {
   'rozpryahayte-khloptsi-koni': {name:'Українська народна пісня — Розпрягайте, хлопці, коні', amount:50},
   'a-ya-vse-plakala': {name:'DOROFEEVA — А я все плакала', amount:100},
   'enkarapista': {name:'DREVO — Енкарапіста', amount:100},
+  'zatsiluyu-trumpet': {name:'Поль Манандіз — Зацілую (труба B♭)', amount:100},
   'zatsiluyu': {name:'Поль Манандіз — Зацілую', amount:100},
   'chervona-ruta': {name:'Володимир Івасюк — Червона рута', amount:100},
   'zelen-klen': {name:'Ігор Поклад — Юрій Рибчинський — Зелен клен', amount:100},
