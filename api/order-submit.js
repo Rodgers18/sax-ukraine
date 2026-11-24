@@ -2,6 +2,8 @@ const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 
 const PRODUCTS = {
+  'zaivoiu': {name:'Alena Omargalieva — Зайвою (альт-саксофон E♭)', amount:100},
+  'zaivoiu-trumpet': {name:'Alena Omargalieva — Зайвою (труба B♭)', amount:100},
   'husy-do-vody': {name:'Українська народна пісня — Гуси до води', amount:50},
   'hey-nalyvaite-povni-chary': {name:'Українська народна пісня — Гей наливайте, повнії чари', amount:50},
   'varenychky': {name:'Українська народна пісня — Варенички', amount:50},

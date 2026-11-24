@@ -5,6 +5,8 @@ const nodemailer = require('nodemailer');
 const querystring = require('querystring');
 
 const PRODUCTS = {
+  'zaivoiu': {name:'Alena Omargalieva — Зайвою (альт-саксофон E♭)', amount:100, pdf:'zaivoiu-noty.pdf', mp3:'zaivoiu-minus.mp3'},
+  'zaivoiu-trumpet': {name:'Alena Omargalieva — Зайвою (труба B♭)', amount:100, pdf:'zaivoiu-trumpet-noty.pdf', mp3:'zaivoiu-minus.mp3'},
   'husy-do-vody': {name:'Українська народна пісня — Гуси до води', amount:50, pdf:'husy-do-vody-noty.pdf', mp3:'husy-do-vody-minus.mp3'},
   'hey-nalyvaite-povni-chary': {name:'Українська народна пісня — Гей наливайте, повнії чари', amount:50, pdf:'hey-nalyvaite-povni-chary-noty.pdf', mp3:'hey-nalyvaite-povni-chary-minus.mp3'},
   'varenychky': {name:'Українська народна пісня — Варенички', amount:50, pdf:'varenychky-noty.pdf', mp3:'varenychky-minus.mp3'},
