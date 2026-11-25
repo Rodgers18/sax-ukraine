@@ -5,6 +5,8 @@ const nodemailer = require('nodemailer');
 const querystring = require('querystring');
 
 const PRODUCTS = {
+  'fanat': {name:'Alena Omargalieva — Фанат (альт-саксофон E♭)', amount:100, pdf:'fanat-noty.pdf', mp3:'fanat-minus.mp3'},
+
   'zaivoiu': {name:'Alena Omargalieva — Зайвою (альт-саксофон E♭)', amount:100, pdf:'zaivoiu-noty.pdf', mp3:'zaivoiu-minus.mp3'},
   'zaivoiu-trumpet': {name:'Alena Omargalieva — Зайвою (труба B♭)', amount:100, pdf:'zaivoiu-trumpet-noty.pdf', mp3:'zaivoiu-minus.mp3'},
   'husy-do-vody': {name:'Українська народна пісня — Гуси до води', amount:50, pdf:'husy-do-vody-noty.pdf', mp3:'husy-do-vody-minus.mp3'},
